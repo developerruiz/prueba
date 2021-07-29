@@ -1,0 +1,179 @@
+@color-principal: red;
+@color-secundario: steelblue;
+@fuente: yellow;
+
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    .nav-bar {
+        margin-top: 400px;
+        width: 100%;
+        height: 80px;
+        background: #ebeeee;
+
+        ul {
+            justify-content: space-around;
+            display: flex;
+
+            .logo {
+                width: 400px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            li {
+                list-style: none;
+                width: 200px;
+                height: 80px;
+                border-right: 4px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                &:hover {
+                    background: #aeaeae;
+                }
+            }
+        }
+    }
+
+    .nav-bar-section{
+        width: 100%;
+        height: 80px;
+        background: #ebeeee;
+
+        ul {
+            justify-content: space-around;
+            display: flex;
+
+            .logo {
+                width: 400px;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            li {
+                list-style: none;
+                width: 200px;
+                height: 80px;
+                border-right: 4px solid #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                &:hover {
+                    background: #aeaeae;
+                }
+            }
+        }
+    }
+    .sub-menu {
+        width: 100%;
+        height: 80px;
+        background: #fff;
+        padding: 30px 0;
+
+        ul {
+            justify-content: space-around;
+            display: flex;
+
+            li {
+
+                height: 90px;
+                list-style: none;
+
+                a {
+                    background: linear-gradient(to right, #00006f, blue, blue, red, yellow);
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .banner {
+        width: 100%;
+        height: 400px;
+        background-image: url(../img/home.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+    }
+    .banner-desarrollo{
+        width: 100%;
+        height: 400px;
+        background-image: url(../img/banner-desarrollo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #propuestas {
+        .img-left {
+            background-image: url(../img/img-paco-santos.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: .3s ease-in;
+            -webkit-transition: .3s ease-in;
+            -o-transition: .3s ease-in;
+
+            &:hover {
+                margin-left: -50px;
+                transition: .3s ease-in;
+                -webkit-transition: .3s ease-in;
+                -o-transition: .3s ease-in;
+            }
+        }
+    }
+
+
+
+}
+#ellas-pueden{
+    .texto-card{
+        position: absolute;
+        background: #00006f;
+        padding: 10px;
+        height: 200px;
+        margin-top: 90%;
+    }
+}
+.footer-redes{
+    background: #000;
+    
+    ul{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        li{
+            color: #fff;
+            font-size: 30px;
+            margin: 0 30px;
+        }
+    }
+}

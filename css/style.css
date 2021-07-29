@@ -1,0 +1,202 @@
+@color-principal : red;
+@color-secundario : steelblue;
+@fuente : yellow;
+* {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .nav-bar {
+  margin-top: 400px;
+  width: 100%;
+  height: 80px;
+  background: #ebeeee;
+}
+
+header .nav-bar ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-bar ul .logo {
+  width: 400px;
+}
+
+header .nav-bar ul .logo img {
+  width: 100%;
+  height: auto;
+}
+
+header .nav-bar ul li {
+  list-style: none;
+  width: 200px;
+  height: 80px;
+  border-right: 4px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav-bar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .nav-bar ul li:hover {
+  background: #aeaeae;
+}
+
+header .nav-bar-section {
+  width: 100%;
+  height: 80px;
+  background: #ebeeee;
+}
+
+header .nav-bar-section ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-bar-section ul .logo {
+  width: 400px;
+}
+
+header .nav-bar-section ul .logo img {
+  width: 100%;
+  height: auto;
+}
+
+header .nav-bar-section ul li {
+  list-style: none;
+  width: 200px;
+  height: 80px;
+  border-right: 4px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav-bar-section ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .nav-bar-section ul li:hover {
+  background: #aeaeae;
+}
+
+header .sub-menu {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  padding: 30px 0;
+}
+
+header .sub-menu ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .sub-menu ul li {
+  height: 90px;
+  list-style: none;
+}
+
+header .sub-menu ul li a {
+  background: -webkit-gradient(linear, left top, right top, from(#00006f), color-stop(blue), color-stop(blue), color-stop(red), to(yellow));
+  background: linear-gradient(to right, #00006f, blue, blue, red, yellow);
+  padding: 10px 20px;
+}
+
+main .banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+}
+
+main .banner-desarrollo {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/banner-desarrollo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main #propuestas .img-left {
+  background-image: url(../img/img-paco-santos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+}
+
+main #propuestas .img-left:hover {
+  margin-left: -50px;
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+}
+
+#ellas-pueden .texto-card {
+  position: absolute;
+  background: #00006f;
+  padding: 10px;
+  height: 200px;
+  margin-top: 90%;
+}
+
+.footer-redes {
+  background: #000;
+}
+
+.footer-redes ul {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.footer-redes ul li {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 30px;
+}
+/*# sourceMappingURL=style.css.map */
