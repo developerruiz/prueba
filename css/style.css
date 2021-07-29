@@ -10,6 +10,12 @@
           box-sizing: border-box;
 }
 
+header {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 header .nav-bar {
   margin-top: 400px;
   width: 100%;
@@ -131,6 +137,12 @@ header .sub-menu ul li a {
   background: -webkit-gradient(linear, left top, right top, from(#00006f), color-stop(blue), color-stop(blue), color-stop(red), to(yellow));
   background: linear-gradient(to right, #00006f, blue, blue, red, yellow);
   padding: 10px 20px;
+}
+
+main {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 main .banner {
