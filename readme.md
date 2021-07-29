@@ -9,4 +9,4 @@ Si queremos visualizar la demo se estara subira el proyecto a Netlify.app, conec
 https://nuevo-soypacosantos.netlify.app/
 
 # Previa visualizacion
-
+![image](https://user-images.githubusercontent.com/68033215/127556847-58c9c235-dba3-4a57-a9fa-5db7ab7346b5.png)
