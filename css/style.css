@@ -1,11 +1,6 @@
-@color-principal : red;
-@color-secundario : steelblue;
-@fuente : yellow;
 * {
   margin: 0;
   padding: 0;
-  left: 0;
-  top: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

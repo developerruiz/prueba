@@ -1,12 +1,7 @@
-@color-principal: red;
-@color-secundario: steelblue;
-@fuente: yellow;
 
 * {
     margin: 0;
     padding: 0;
-    left: 0;
-    top: 0;
     box-sizing: border-box;
 }
 
@@ -32,7 +27,7 @@ header {
                     height: auto;
                 }
             }
-
+            
             li {
                 list-style: none;
                 width: 200px;
