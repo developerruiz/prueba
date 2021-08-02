@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 header {
   max-width: 1400px;
   width: 100%;
@@ -110,7 +115,7 @@ header .nav-bar-section ul li:hover {
 
 header .sub-menu {
   width: 100%;
-  height: 80px;
+  height: auto;
   background: #fff;
   padding: 30px 0;
 }
@@ -121,6 +126,8 @@ header .sub-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 header .sub-menu ul li {
@@ -134,35 +141,43 @@ header .sub-menu ul li a {
   padding: 10px 20px;
 }
 
+header .nav-bar-movil {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  background: #000;
+  height: 80px;
+}
+
 main {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
 }
 
-main .banner {
+main #banner {
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   height: 400px;
-  background-image: url(../img/home.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   position: absolute;
   top: 0;
+  background-color: #000;
+  background-image: url(../img/home.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 main .banner-desarrollo {
   width: 100%;
   height: 400px;
   background-image: url(../img/banner-desarrollo.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 main #propuestas .img-left {
-  background-image: url(../img/img-paco-santos.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   transition: .3s ease-in;
   -webkit-transition: .3s ease-in;
   -o-transition: .3s ease-in;
@@ -205,5 +220,20 @@ main #propuestas .img-left:hover {
   color: #fff;
   font-size: 30px;
   margin: 0 30px;
+}
+
+@media screen and (max-width: 990px) {
+  .p-index {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-bar {
+    visibility: hidden;
+  }
+  #banner {
+    margin-top: 80px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
