@@ -1,0 +1,1 @@
+let burgerMenu = document.getElementById('fa-bars') 
