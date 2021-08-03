@@ -124,20 +124,35 @@ header {
         top: 0;
         position: absolute;
         width: 100%;
-        background: #fff;
+        background: #f9f9f9;
         font-size: 22px;
-        display: flex;
-        align-items: center;
-        height: 80px;
         padding-left: 40px;
-
+        display: none;
         ul{
+            align-items: center;
+            display: flex;
+            height: 80px;
             li{
                 list-style: none;
             }
         }
     }
-
+    
+    .menu-movil{
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background: #f9f9f9;
+        top: 80px;
+        z-index: 999;
+        .logo{
+            width: 300px;
+            height: auto;
+        }
+        li{
+            list-style: none;
+        }
+    }
 
 }
 
@@ -230,7 +245,10 @@ main {
         margin-top: 80px!important;
     }
     .sub-menu{
-        display: hidden;
+        display: none;
         
+    }
+    header .nav-bar-movil{
+        display: block;
     }
 }

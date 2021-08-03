@@ -145,19 +145,41 @@ header .nav-bar-movil {
   top: 0;
   position: absolute;
   width: 100%;
-  background: #fff;
+  background: #f9f9f9;
   font-size: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding-left: 40px;
+  display: none;
+}
+
+header .nav-bar-movil ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 80px;
-  padding-left: 40px;
 }
 
 header .nav-bar-movil ul li {
+  list-style: none;
+}
+
+header .menu-movil {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #f9f9f9;
+  top: 80px;
+  z-index: 999;
+}
+
+header .menu-movil .logo {
+  width: 300px;
+  height: auto;
+}
+
+header .menu-movil li {
   list-style: none;
 }
 
@@ -248,7 +270,10 @@ main #propuestas .img-left:hover {
     margin-top: 80px !important;
   }
   .sub-menu {
-    display: hidden;
+    display: none;
+  }
+  header .nav-bar-movil {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
