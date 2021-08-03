@@ -145,8 +145,20 @@ header .nav-bar-movil {
   top: 0;
   position: absolute;
   width: 100%;
-  background: #000;
+  background: #fff;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 80px;
+  padding-left: 40px;
+}
+
+header .nav-bar-movil ul li {
+  list-style: none;
 }
 
 main {
@@ -234,6 +246,9 @@ main #propuestas .img-left:hover {
   }
   #banner {
     margin-top: 80px !important;
+  }
+  .sub-menu {
+    display: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */

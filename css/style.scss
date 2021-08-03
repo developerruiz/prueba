@@ -116,6 +116,7 @@ header {
             }
         }
     }
+    
 
     // MOVIL
     .nav-bar-movil {
@@ -123,8 +124,18 @@ header {
         top: 0;
         position: absolute;
         width: 100%;
-        background: #000;
+        background: #fff;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
         height: 80px;
+        padding-left: 40px;
+
+        ul{
+            li{
+                list-style: none;
+            }
+        }
     }
 
 
@@ -217,5 +228,9 @@ main {
     }
     #banner {
         margin-top: 80px!important;
+    }
+    .sub-menu{
+        display: hidden;
+        
     }
 }
