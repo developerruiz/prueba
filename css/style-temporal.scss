@@ -110,7 +110,16 @@ header {
                 width: 250px;
                 list-style: none;
                 background: linear-gradient(to right, #00006f, blue, blue, red, yellow);
-                
+                transition: .3s ease-in;
+                -webkit-transition: .3s ease-in;
+                -o-transition: .3s ease-in;
+
+                &:hover{
+                    transition: .3s ease-in;
+                    -webkit-transition: .3s ease-in;
+                    -o-transition: .3s ease-in;
+                    background: linear-gradient(to left, #00006f, blue, blue, red, yellow);
+                }
                 a {
                     height: 40px;
                     align-items: center;

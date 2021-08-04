@@ -136,6 +136,17 @@ header .sub-menu ul li {
   list-style: none;
   background: -webkit-gradient(linear, left top, right top, from(#00006f), color-stop(blue), color-stop(blue), color-stop(red), to(yellow));
   background: linear-gradient(to right, #00006f, blue, blue, red, yellow);
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+}
+
+header .sub-menu ul li:hover {
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+  background: -webkit-gradient(linear, right top, left top, from(#00006f), color-stop(blue), color-stop(blue), color-stop(red), to(yellow));
+  background: linear-gradient(to left, #00006f, blue, blue, red, yellow);
 }
 
 header .sub-menu ul li a {
@@ -332,4 +343,4 @@ main #propuestas .img-left:hover {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-temporal.css.map */
